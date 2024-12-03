@@ -10,3 +10,11 @@ On the other hand, controller layer works like a "bridge" between the model and 
 Finally, the view contains all the design-related. In this layer we can find things like: styling, elements such as buttons, tables, labels.
 
 In order to add more context, DAO usually contains all the actions for CRUDs, and this project is a very good example to understand this part. Inside DAO class, we can find SQL scripts to select data from database, inserts, updates, and deletions.
+
+# Usage
+You need:
+
+- Install Oracle 19c (write down all credentials)
+- Install SQL Developer, log in with system user and create a new user with all permissions
+- Download `ojdbc8.jar` and install into librería project
+- Once you're ready with SQL Developer, execute the script inside `script.sql` file in the root directory of this repository
